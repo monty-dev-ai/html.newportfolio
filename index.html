@@ -1,0 +1,283 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Creative Portfolio</title>
+    <link
+      href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/css/bootstrap.min.css"
+      rel="stylesheet"
+      integrity="sha384-sRIl4kxILFvY47J16cr9ZwB07vP4J8+LH7qKQnuqkuIAvNWLzeN8tE5YBujZqJLB"
+      crossorigin="anonymous"
+    />
+    <style>
+      .name-h1,
+      .lead {
+        margin-bottom: 100px;
+        text-shadow: 5px 5px 6px rgb(68, 68, 78);
+        font-family: "Sacramento", cursive;
+      }
+      .container {
+        margin: 0;
+        max-width: 100%;
+      }
+      #custom-cards > h2 {
+        text-align: center;
+      }
+    </style>
+  </head>
+  <body class="bg-black">
+    <nav class="navbar navbar-dark bg-dark" aria-label="First navbar example">
+      <div class="container-fluid">
+        <a class="navbar-brand" href="#">Portfolio Website</a>
+        <button
+          class="navbar-toggler collapsed"
+          type="button"
+          data-bs-toggle="collapse"
+          data-bs-target="#navbarsExample01"
+          aria-controls="navbarsExample01"
+          aria-expanded="false"
+          aria-label="Toggle navigation"
+        >
+          <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="navbar-collapse collapse" id="navbarsExample01">
+          <ul class="navbar-nav me-auto mb-2">
+            <li class="nav-item">
+              <a class="nav-link active" aria-current="page" href="#">Home</a>
+            </li>
+            <li class="nav-item"><a class="nav-link" href="#">Link</a></li>
+
+            <li class="nav-item dropdown">
+              <a
+                class="nav-link dropdown-toggle"
+                href="#"
+                data-bs-toggle="dropdown"
+                aria-expanded="false"
+                >Dropdown</a
+              >
+              <ul class="dropdown-menu">
+                <li><a class="dropdown-item" href="#">Action</a></li>
+                <li><a class="dropdown-item" href="#">Another action</a></li>
+                <li>
+                  <a class="dropdown-item" href="#">Something else here</a>
+                </li>
+              </ul>
+            </li>
+          </ul>
+          <form role="search">
+            <input
+              class="form-control"
+              type="search"
+              placeholder="Search"
+              aria-label="Search"
+            />
+          </form>
+        </div>
+      </div>
+    </nav>
+    <div class="container bg-black">
+      <div
+        class="row p-4 pb-0 pe-lg-0 pt-lg-5 align-items-center rounded-3 border shadow-lg"
+      >
+        <div class="col-lg-4 p-3 p-lg-5 pt-lg-3">
+          <h1 class="name-h1 text-white fw-bold">Monty Kumar Pareek</h1>
+          <h2 class="text-white fw-bold">About</h2>
+          <p class="lead text-white fw-bold">
+            I am a Web and iOS Developer with a strong interest in building
+            clean, responsive web interfaces and smooth mobile applications. I
+            enjoy turning ideas into functional products and continuously
+            improving my skills in modern development tools and technologies.
+          </p>
+        </div>
+        <div class="col-lg-7 offset-lg-1 p-0 overflow-hidden shadow-lg">
+          <img
+            class="rounded-lg-3 img-fluid pt-0"
+            src="./items/WA_1777904719431.jpeg"
+            alt=""
+            width="500"
+          />
+        </div>
+      </div>
+    </div>
+    <div class="container px-4 py-5 bg-black" id="custom-cards">
+      <h2 class="pb-2 border-bottom text-white">Projects</h2>
+      <div class="row row-cols-1 row-cols-lg-3 align-items-stretch g-4 py-5">
+        <div class="col">
+          <div
+            class="card card-cover h-100 overflow-hidden text-bg-dark rounded-4 shadow-lg"
+            style="background-image: url(items/birthday.png)"
+          >
+            <div
+              class="d-flex flex-column h-100 p-5 pb-3 text-white text-shadow-1"
+            >
+              <h3 class="pt-5 mt-5 mb-4 display-6 lh-1 fw-bold">
+                Birthday Invitation
+              </h3>
+            </div>
+          </div>
+        </div>
+        <div class="col">
+          <div
+            class="card card-cover h-100 overflow-hidden text-bg-dark rounded-4 shadow-lg"
+            style="background-image: url(items/movie\ review.png)"
+          >
+            <div
+              class="d-flex flex-column h-100 p-5 pb-3 text-white text-shadow-1"
+            >
+              <h3 class="pt-5 mt-5 mb-4 display-6 lh-1 fw-bold">
+                Movie Recommendation List
+              </h3>
+            </div>
+          </div>
+        </div>
+        <div class="col">
+          <div
+            class="card card-cover h-100 overflow-hidden text-bg-dark rounded-4 shadow-lg blur-img"
+            style="background-image: url(items/resume.png)"
+          >
+            <div class="d-flex flex-column h-100 p-5 pb-3 text-shadow-1">
+              <h3 class="pt-5 mt-5 mb-4 display-6 lh-1 fw-bold">
+                <a
+                  href="public/index.html"
+                  class="text-white text-decoration-none"
+                  >My-Resume</a
+                >
+              </h3>
+            </div>
+          </div>
+        </div>
+      </div>
+      <h2 class="text-white fw-bold">Skills</h2>
+      <hr class="text-white" />
+    </div>
+    <div
+      class="d-flex flex-column flex-md-row p-4 gap-2 py-md-5 align-items-center justify-content-center bg-black"
+    >
+      <div class="list-group bg-black gap-3">
+        <a
+          href="#"
+          class="list-group-item list-group-item-action d-flex gap-3 py-3 bg-dark border-0 text-white rounded-5"
+          aria-current="true"
+        >
+          <img
+            src="./items/cat-typing.gif"
+            alt=""
+            width="332"
+            height="332"
+            class="rounded-circle flex-shrink-0"
+          />
+          <div
+            class="d-flex gap-2 w-100 justify-content-between align-items-center"
+          >
+            <div>
+              <h6 class="mb-0">Design & Development</h6>
+              <p class="mb-0 opacity-75">
+                I started learning to code when I was 12 years old because I
+                wanted to make my own video games. Over time, I have gained a
+                wealth of experience designing and developing mobile and web
+                applications
+              </p>
+            </div>
+          </div>
+        </a>
+        <a
+          href="#"
+          class="list-group-item list-group-item-action d-flex gap-3 py-3 bg-dark border-0 text-white rounded-5"
+          aria-current="true"
+        >
+          <img
+            src="./items/cat-funny-cat.gif"
+            alt=""
+            width="332"
+            height="332"
+            class="rounded-circle flex-shrink-0"
+          />
+          <div
+            class="d-flex gap-2 w-100 justify-content-between align-items-center"
+          >
+            <div>
+              <h6 class="mb-0">Another title here</h6>
+              <p class="mb-0 opacity-75">
+                Some placeholder content in a paragraph that goes a little
+                longer so it wraps to a new line.
+              </p>
+            </div>
+          </div>
+        </a>
+        <a
+          href="#"
+          class="list-group-item list-group-item-action d-flex gap-3 py-3 bg-dark border-0 text-white rounded-5"
+          aria-current="true"
+        >
+          <img
+            src="./items/aa-aaa.gif"
+            alt=""
+            width="332"
+            height="332"
+            class="rounded-circle flex-shrink-0"
+          />
+          <div
+            class="d-flex gap-2 w-100 justify-content-between align-items-center"
+          >
+            <div>
+              <h6 class="mb-0">Third heading</h6>
+              <p class="mb-0 opacity-75">
+                Some placeholder content in a paragraph.
+              </p>
+            </div>
+          </div>
+        </a>
+      </div>
+    </div>
+    <div class="px-4 py-5 my-5 text-center text-white">
+      <img
+        class="d-block mx-auto mb-4"
+        src="./items/WIN_20260116_03_17_37_Pro.png"
+        alt="my image"
+        width="200"
+        height=""
+      />
+      <h1 class="display-5 fw-bold text-white">Get In Touch</h1>
+      <h3 class="text-dark">If you love hot wings as much as I do.</h3>
+      <div class="col-lg-6 mx-auto">
+        <p class="lead mb-4">
+          Love hot wings as much as I do? Let's talk about how awesome they are!
+          We can code while we eat hot wings!
+        </p>
+        <div class="d-grid gap-2 d-sm-flex justify-content-sm-center">
+          <button type="button" class="btn btn-primary btn-lg px-4 gap-3">
+            Contact Me
+          </button>
+        </div>
+      </div>
+    </div>
+    <div class="container text-white">
+      <footer class="py-3 my-4">
+        <ul class="nav justify-content-center border-bottom pb-3 mb-3">
+          <li class="nav-item">
+            <a href="#" class="nav-link px-2 text-white">Home</a>
+          </li>
+          <li class="nav-item">
+            <a href="#" class="nav-link px-2 text-white">Features</a>
+          </li>
+          <li class="nav-item">
+            <a href="#" class="nav-link px-2 text-white">Pricing</a>
+          </li>
+          <li class="nav-item">
+            <a href="#" class="nav-link px-2 text-white">FAQs</a>
+          </li>
+          <li class="nav-item">
+            <a href="#" class="nav-link px-2 text-white">About</a>
+          </li>
+        </ul>
+        <p class="text-center text-white">© 2025 Company, Inc</p>
+      </footer>
+    </div>
+    <script
+      src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/js/bootstrap.bundle.min.js"
+      integrity="sha384-FKyoEForCGlyvwx9Hj09JcYn3nv7wiPVlz7YYwJrWVcXK/BmnVDxM+D2scQbITxI"
+      crossorigin="anonymous"
+    ></script>
+  </body>
+</html>

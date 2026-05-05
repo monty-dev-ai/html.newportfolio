@@ -1,0 +1,137 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>My Resume</title>
+    <style>
+      body {
+        margin: 0;
+        background: linear-gradient(to left, pink, purple, yellow);
+      }
+      hr {
+        width: 100%;
+      }
+      .body {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+        max-width: 1000px;
+        margin: 0 auto;
+        padding: 10px;
+      }
+      .personal {
+        width: 100%;
+        padding: 0px;
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        gap: 10px;
+
+        box-sizing: border-box;
+      }
+
+      .left {
+        display: grid;
+        grid-template-rows: repeat(3, 1fr);
+        gap: 0px;
+      }
+
+      .right {
+        background: lightblue;
+        padding: 0;
+      }
+      .personal h3 {
+      }
+      .right img {
+        width: 100%;
+        height: 100%;
+        object-fit: cover;
+        display: block;
+      }
+    </style>
+  </head>
+  <body>
+    <div class="body">
+      <h1>Resume</h1>
+      <hr />
+      <div class="personal">
+        <div class="left">
+          <div><h3>Name: Monty Pareek</h3></div>
+          <div><a href="./public/hobbies.html">Hobbies</a></div>
+          <div><a href="./public/contact.html">Contact Me</a></div>
+        </div>
+        <div class="right">
+          <img src="./assets/happy.mo.jpge.jpeg" alt="" />
+        </div>
+      </div>
+      <hr />
+      <h3>Summary</h3>
+      <p>
+        A motivated and detail-oriented web developer with a strong foundation
+        in HTML, CSS, and JavaScript. Passionate about building responsive and
+        user-friendly websites. Eager to learn new technologies and contribute
+        to real-world projects while continuously improving technical and
+        problem-solving skills.
+      </p>
+      <hr />
+      <h3>Education</h3>
+      <ul>
+        <li><b>Master of Computer Applications (MCA)</b></li>
+        ABC University, Jaipur
+        <br />
+        2024-2026
+        <li><b>Bachelor of Computer Applications (BCA)</b></li>
+        XYZ College, Jaipur
+        <br />
+        2021-2024
+        <li><b>Senior Secondary (12th Grade)</b></li>
+        Rajasthan Board
+        <br />
+        2019-2021
+      </ul>
+      <hr />
+      <h3>Work Experience</h3>
+      <b>Frontend Developer Intern</b> <br />
+      Tech Solutions Pvt. Ltd. <br />
+      June 2025 - August 2025
+      <ul>
+        <li>Developed responsive web pages using HTML, CSS, and JavaScript</li>
+        <li>Assisted in improving UI/UX design for client projects</li>
+        <li>Fixed bugs and enhanced website performance</li>
+      </ul>
+      <b>Freelance Web Developer</b> <br />
+      Self-employed <br />
+      2024-Present
+      <ul>
+        <li>Built portfolio and small business websites</li>
+        <li>Customized layouts based on client needs</li>
+        <li>Maintained and updated websites</li>
+      </ul>
+      <hr />
+      <h3>Skills</h3>
+      <ul>
+        <li>HTML5, CSS3, JavaScript</li>
+        <li>Responsive Web Design</li>
+        <li>Git & GitHub</li>
+        <li>Basic React.js</li>
+        <li>Problem Solving and Debugging</li>
+      </ul>
+      <hr />
+      <h3>Awards & Certifications</h3>
+      <ul>
+        <li>Web Development Bootcamp Certification - Udemy (2025)</li>
+        <li>Winner - Inter-College Coding Competition (2024)</li>
+        <li>JavaScript Fundamentals - Coursera</li>
+      </ul>
+      <hr />
+      <footer>
+        <h3>Name: Monty Pareek</h3>
+        <h3>
+          Note*: All information presented in this document is fictional and
+          used for practice purposes only.
+        </h3>
+      </footer>
+    </div>
+  </body>
+</html>
